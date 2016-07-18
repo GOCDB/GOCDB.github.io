@@ -1,1 +1,143 @@
-GOCDB pages comming soon, updated 11/05/2015
+<html>
+<head>
+  <title>GOCDB</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="SHORTCUT ICON" href="https://github.com/GOCDB/gocdb/raw/master/htdocs/landing/egi_logo.jpg">
+</head>
+
+<body>
+  <div id="page">
+    <div id="header">
+      <h1>GOCDB</h1>
+    </div>
+      <br></br>
+
+    <div id="section">
+      <p>Grid Operations Configuration Management Database. A Repository, Portal and REST style API for managing Grid and Cloud topology objects including; projects, administrative domains, sites, services,
+          service-endpoints, service-groups, downtimes, users, roles and business rules. The View and Controller layers (i.e. the 'VC' in 'MVC') are inherited legacy from v4 and are scheduled to be re-implement
+          using a modern MVC framework.</p>
+      <div id="dropdown">
+        <button id="dropbtn">Documentation</button>
+      <div id="dropdown-content">
+        <a href="https://wiki.egi.eu/w/images/d/d3/GOCDB5_Grid_Topology_Information_System.pdf" target="_blank">GOCDB Executive Summary</a>
+        <a href="https://wiki.egi.eu/wiki/GOCDB" target="_blank">EGI GOCDB wiki landing page</a>
+        <a href="https://wiki.egi.eu/wiki/GOCDB_Documentation_Index" target="_blank">GOCDB Documentation index</a>
+        <a href="https://wiki.egi.eu/wiki/GOCDB/Input_System_User_Documentation" target="_blank">User docs</a>
+      </div>
+    </div>
+  </div>
+  <br></br>
+  <div id="footer">
+    <a href="http://www.stfc.ac.uk" target="_blank">
+      <img src="STFC.jpg" height="25">
+    </a>
+    <a href="http://europa.eu" target="_blank">
+      <img src="eu.jpg" height="25">
+    </a>
+    <a href="http://www.egi.eu" target="_blank">
+      <img src="egi_logo.jpg" height="25">
+    </a>
+    GOCDB is an EGI service provided by
+    <a class="Licence_Link" href="http://www.stfc.ac.uk/">STFC</a>
+    , co-funded by
+    <a class="Licence_Link" href="http://www.egi.eu">EGI.eu</a>
+    and
+    <a href="http://go.egi.eu/eng">EGI-Engage</a>
+    . Licensed under the
+    <a class="Licence_Link" href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2 License</a>
+    .
+    </div>
+  </div>
+
+
+</body>
+
+</html>
+
+<style>
+#page {
+  background-color: aliceblue;
+  height: 100%;
+  background: -webkit-linear-gradient(aliceblue, #A0DDEB);
+  background: -o-linear-gradient(aliceblue, #A0DDEB);
+  background: -moz-linear-gradient(aliceblue, #A0DDEB);
+}
+
+#header {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 40px;
+  padding: 40px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #131313;
+  letter-spacing: .15em;
+
+}
+
+
+
+#dropbtn {
+    background-color: #0D728E;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown-content a:hover {background-color: #f1f1f1}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+}
+
+#dropdown:hover #dropbtn {
+    background-color: lightblue;
+}
+
+
+#section {
+    width:page-width;
+    text-align:center;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding:50px;
+    border:5px solid #0D728E;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+    font-family: sans-serif;
+}
+#footer {
+    border-top: 3px solid #0D728E;
+    border-bottom: 3px solid #0D728E;
+    margin-left: 450px;
+    margin-right: 450px;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    font-family: sans-serif;
+}
+</style>
