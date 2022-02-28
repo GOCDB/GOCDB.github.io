@@ -6,7 +6,7 @@ service-endpoints, service-groups, downtimes, users, roles and business rules.
 
 <img alt="The logo of the Science and Technology Facilities Council"
      src="img/logos/ukri_stfc.png"
-     height=57
+     height=64
 />
 <img alt="The logo of the European Union"
      src="img/flags/eu.png"
