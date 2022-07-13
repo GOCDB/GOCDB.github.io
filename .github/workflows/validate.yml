@@ -26,3 +26,14 @@ jobs:
       with:
         args: '*.md'
         config: '.github/workflows/config/markdown-lint_config.yml'
+
+  broken-links:
+    name: Check for broken links
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Check for broken links
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
