@@ -1,0 +1,7 @@
+"default": true
+
+"MD033": {
+      # Allow img tags because GitHub Flavoured  Markdown does not support
+      # resizing images.
+      "allowed_elements": [ "img" ]
+    }
