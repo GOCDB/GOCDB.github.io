@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Build Jekyll site
       uses: jerryjvl/jekyll-build-action@v1
@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Lint markdown
       uses: avto-dev/markdown-lint@v1
@@ -33,7 +33,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Check for broken links
       uses: gaurav-nelson/github-action-markdown-link-check@v1
