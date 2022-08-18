@@ -1,0 +1,17 @@
+# The configuration file for the spellcheck job in the validate workflow.
+matrix:
+- name: Markdown
+  aspell:
+    lang: en
+  dictionary:
+    wordlists:
+    # Words in the permitted list are case sensitive.
+    - .spellcheck-permitted-words.txt
+  # Without this, you get spellcheck errors for things in html and markdown
+  # tags, like external URLs.
+  pipeline:
+  - pyspelling.filters.markdown:
+  - pyspelling.filters.html:
+  sources:
+  - '**/*.md'
+  default_encoding: utf-8
