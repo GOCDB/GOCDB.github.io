@@ -6,7 +6,7 @@ matrix:
   dictionary:
     wordlists:
     # Words in the permitted list are case sensitive.
-    - .spellcheck-permitted-words.txt
+    - .github/workflows/config/spellcheck-permitted-words.txt
   # Without this, you get spellcheck errors for things in html and markdown
   # tags, like external URLs.
   pipeline:
