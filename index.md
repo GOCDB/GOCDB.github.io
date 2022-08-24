@@ -30,3 +30,7 @@ GOCDB is provided by [STFC](https://stfc.ukri.org/), part of
 [EGI](https://egi.eu) via [EGI-ACE](https://www.egi.eu/project/egi-ace/),
 [EOSC-Future](https://eoscfuture.eu/) and the [IRIS](https://www.iris.ac.uk/)
 community.
+
+## Documentation
+
+- [GOCDB Programmatic Interface](api/index.md)
