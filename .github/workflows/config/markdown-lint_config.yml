@@ -1,5 +1,12 @@
 "default": true
 
+# Line Length (too long).
+"MD013": {
+    # Lines in tables should not throw linting errors as GitHub Flavoured
+    # Markdown does not provide a way of line breaking in tables.
+    "tables": false
+}
+
 # (Forbid) Inline HTML
 "MD033": {
     # Allow img tags because GitHub Flavoured Markdown does not support
