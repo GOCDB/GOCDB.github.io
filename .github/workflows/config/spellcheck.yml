@@ -3,6 +3,7 @@ matrix:
 - name: Markdown
   aspell:
     lang: en
+    ignore-case: false
   dictionary:
     wordlists:
     # Words in the permitted list are case sensitive.
