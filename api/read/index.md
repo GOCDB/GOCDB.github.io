@@ -60,7 +60,7 @@ get_service_endpoint | Returns a list of services (single node x single service)
 get_service_group | Returns a list of service groups and the service endpoints under those groups. | 2
 get_service_group_role | Returns a list of service groups and the roles held by users over these groups. | 2
 get_service_types | Returns a list of valid service types and associated description | 1
-get_site | Returns site information, grouped by site | 2
+[get_site](get_site/index.md) | Returns site information, grouped by site | 2
 get_site_contacts | Returns a list of persons (and associated info) having a role at site level, grouped per site | 2
 get_site_count_per_country | Returns a count of sites per country (not per NGI) | 1
 get_site_list | Returns a list of sites with minimal associated information | 1
