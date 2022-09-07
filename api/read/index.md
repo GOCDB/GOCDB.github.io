@@ -54,7 +54,7 @@ get_downtime_to_broadcast | Returns the list of downtimes recently declared with
 get_ngi | Returns a list of NGIs with contact information | 2
 get_project_contacts | Returns a list of persons (and associated info) having a role over a project. | 2
 get_roc_contacts | Returns NGI contact details, including NGI contact mail address and list of NGI staff | 2
-get_roc_list | Returns a list of NGIs with minimal associated information | 1
+[get_roc_list](get_roc_list/index.md) | Returns a list of NGIs with minimal associated information | 1
 get_service | Returns a list of services (single node x single service) and associated information (same as get_service_endpoint) | 1
 get_service_endpoint | Returns a list of services (single node x single service) and associated information (same as get_service) | 1
 get_service_group | Returns a list of service groups and the service endpoints under those groups. | 2
