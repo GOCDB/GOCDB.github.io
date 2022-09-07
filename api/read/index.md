@@ -64,5 +64,5 @@ get_service_types | Returns a list of valid service types and associated descrip
 [get_site_contacts](get_site_contacts/index.md) | Returns a list of persons (and associated info) having a role at site level, grouped per site | 2
 get_site_count_per_country | Returns a count of sites per country (not per NGI) | 1
 [get_site_list](get_site_list/index.md) | Returns a list of sites with minimal associated information | 1
-get_site_security_info | Returns security contact information for sites | 2
+[get_site_security_info](get_site_security_info/index.md) | Returns security contact information for sites | 2
 get_user | Returns a user or a list of users with associated details and roles | 2
