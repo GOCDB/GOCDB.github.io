@@ -4,7 +4,10 @@
 "MD013": {
     # Lines in tables should not throw linting errors as GitHub Flavoured
     # Markdown does not provide a way of line breaking in tables.
-    "tables": false
+    "tables": false,
+    # Most of the code blocks in this repo will be exmaple output from the
+    # API, and I'd like to keep them formatted as the API would be formatted.
+    "code_blocks": false
 }
 
 # (Forbid) Inline HTML
