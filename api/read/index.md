@@ -49,7 +49,7 @@ credential mechanism.
 get_cert_status_changes |Returns a list of changes to certification statuses | 2
 get_cert_status_date | Returns a list of current certification statuses for Production sites and the date they entered that status | 2
 [get_downtime](get_downtime/index.md) | Returns a list of service downtimes (downtimes are repeated for each affected service) | 1
-get_downtime_nested_services | Returns a list of downtimes with affected services nested as child elements of the downtime | 1
+[get_downtime_nested_services](get_downtime_nested_services/index.md) | Returns a list of downtimes with affected services nested as child elements of the downtime | 1
 get_downtime_to_broadcast | Returns the list of downtimes recently declared with notification settings for downtime notification services | 1
 get_ngi | Returns a list of NGIs with contact information | 2
 get_project_contacts | Returns a list of persons (and associated info) having a role over a project. | 2
