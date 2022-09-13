@@ -64,4 +64,4 @@ get_service_group_role | Returns a list of service groups and the roles held by 
 get_site_count_per_country | Returns a count of sites per country (not per NGI) | 1
 [get_site_list](get_site_list/index.md) | Returns a list of sites with minimal associated information | 1
 [get_site_security_info](get_site_security_info/index.md) | Returns security contact information for sites | 2
-get_user | Returns a user or a list of users with associated details and roles | 2
+[get_user](get_user/index.md) | Returns a user or a list of users with associated details and roles | 2
