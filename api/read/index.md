@@ -52,7 +52,7 @@ credential mechanism.
 [get_downtime_nested_services](get_downtime_nested_services/index.md) | Returns a list of downtimes with affected services nested as child elements of the downtime | 1
 [get_downtime_to_broadcast](get_downtime_to_broadcast/index.md) | Returns the list of downtimes recently declared with notification settings for downtime notification services | 1
 [get_ngi](get_ngi/index.md) | Returns a list of NGIs with contact information | 2
-get_project_contacts | Returns a list of persons (and associated info) having a role over a project. | 2
+[get_project_contacts](get_project_contacts/index.md) | Returns a list of persons (and associated info) having a role over a project. | 2
 [get_roc_contacts](get_roc_contacts/index.md) | Returns NGI contact details, including NGI contact mail address and list of NGI staff | 2
 [get_roc_list](get_roc_list/index.md) | Returns a list of NGIs with minimal associated information | 1
 [get_service](get_service/index.md) | Returns a list of services (single node x single service) and associated information (same as get_service_endpoint) | 1
