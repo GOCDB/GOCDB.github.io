@@ -3,15 +3,25 @@ matrix:
 - name: Markdown
   aspell:
     lang: en
+    ignore-case: false
   dictionary:
     wordlists:
     # Words in the permitted list are case sensitive.
     - .github/workflows/config/spellcheck-permitted-words.txt
-  # Without this, you get spellcheck errors for things in html and markdown
-  # tags, like external URLs.
   pipeline:
+  # Pyspelling has better filter options when handling HTML, so
+  # we need to use the markdown filter to transform out markdown
+  # to HTML.
   - pyspelling.filters.markdown:
+      # In order to parse our "tight" code blocks, we need to
+      # enable the superfence extension.
+      # https://spec.commonmark.org/0.29/#tight
+      markdown_extensions:
+      - pymdownx.superfences:
   - pyspelling.filters.html:
+      ignores:
+      - code
+      - pre
   sources:
   - '**/*.md'
   default_encoding: utf-8
