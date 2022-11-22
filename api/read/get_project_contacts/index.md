@@ -27,18 +27,18 @@ This method optionally supports paging, to iterate over all results,
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
   <Project ID="1" NAME="EGI">
-    <CONTACT USER_ID="202G0" PRIMARY_KEY="202G0">
-      <FORENAME>Example</FORENAME>
-      <SURNAME>User</SURNAME>
-      <TITLE>Mr</TITLE>
-      <EMAIL>example.user@stfc.ac.uk</EMAIL>
-      <TEL>+00 (0) 0000 000000</TEL>
+    <CONTACT USER_ID="4322" PRIMARY_KEY="4523G0">
+      <FORENAME>Gwei</FORENAME>
+      <SURNAME>Jai</SURNAME>
+      <TITLE></TITLE>
+      <EMAIL>Gwei.Jai@izolamrf.si</EMAIL>
+      <TEL>+44 040 3636 3600</TEL>
       <WORKING_HOURS_START/>
       <WORKING_HOURS_END/>
-      <CERTDN>/C=UK/O=eScience/OU=CLRC/L=RAL/CN=example user</CERTDN>
+      <CERTDN>/C=UK/O=eScience/OU=CLRC/L=RAL/CN=Gwei Jai</CERTDN>
       <EGICHECKIN/>
       <IRISIAM/>
-      <ROLE_NAME>EGI CSIRT Officer</ROLE_NAME>
+      <ROLE_NAME>Site Operations Manager</ROLE_NAME>
     </CONTACT>
   </Project>
 </results>

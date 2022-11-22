@@ -14,7 +14,7 @@
 
 | Parameters | Effect | Format/Value(s) | Default | Example |
 | - | - | - | - | - |
-| `roc` | Limit results to given NGI | any NGI name | `all` | `?method=get_roc_list&roc=NGI_DE` |
+| `roc` | Limit results to given NGI | any NGI name | `all` | `?method=get_roc_list&roc=NGI_SI` |
 
 ### Paging
 
@@ -26,31 +26,31 @@ This method optionally supports paging, to iterate over all results,
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <ROC ID="4" ROC_NAME="EGI.eu">
-    <ROCNAME>EGI.eu</ROCNAME>
-    <MAIL_CONTACT>example@egi.eu</MAIL_CONTACT>
-    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=NGI&id=4</GOCDB_PORTAL_URL>
-    <CONTACT USER_ID="406G0" PRIMARY_KEY="406G0">
-      <FORENAME>Example</FORENAME>
-      <SURNAME>User</SURNAME>
+  <ROC ID="11463" ROC_NAME="NGI_SI">
+    <ROCNAME>NGI_SI</ROCNAME>
+    <MAIL_CONTACT>ngi-si-contact@swing-grid.si</MAIL_CONTACT>
+    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=NGI&id=11463</GOCDB_PORTAL_URL>
+    <CONTACT USER_ID="4322" PRIMARY_KEY="4523G0">
+      <FORENAME>Gwei</FORENAME>
+      <SURNAME>Jai</SURNAME>
       <TITLE/>
-      <EMAIL>example.user@stfc.ac.uk</EMAIL>
-      <TEL>+00 (0) 0000 000000</TEL>
-      <CERTDN>/C=UK/O=eScience/OU=CLRC/L=RAL/CN=example user</CERTDN>
-      <EGICHECKIN/>
-      <IRISIAM/>
-      <ROLE_NAME>Regional Staff (ROD)</ROLE_NAME>
-    </CONTACT>
-    <CONTACT USER_ID="6079G0" PRIMARY_KEY="6079G0">
-      <FORENAME>Example</FORENAME>
-      <SURNAME>User</SURNAME>
-      <TITLE>Dr</TITLE>
-      <EMAIL>example.user@stfc.ac.uk</EMAIL>
-      <TEL/>
-      <CERTDN/>
+      <EMAIL>Gwei.Jai@izolamrf.si</EMAIL>
+      <TEL>+44 040 3636 3600</TEL>
+      <CERTDN>/C=UK/O=eScience/OU=CLRC/L=RAL/CN=Gwei Jai</CERTDN>
       <EGICHECKIN>alphanumeric@egi.eu</EGICHECKIN>
       <IRISIAM/>
-      <ROLE_NAME>Regional Staff (ROD)</ROLE_NAME>
+      <ROLE_NAME>Site Operations Manager</ROLE_NAME>
+    </CONTACT>
+    <CONTACT USER_ID="468344" PRIMARY_KEY="22434G0">
+      <FORENAME>Yuki</FORENAME>
+      <SURNAME>Tsunoda</SURNAME>
+      <TITLE></TITLE>
+      <EMAIL>Yuki.Tsunoda@izolamrf.si</EMAIL>
+      <TEL>+49 432 0030 8324</TEL>
+      <CERTDN/>
+      <EGICHECKIN/>
+      <IRISIAM/>
+      <ROLE_NAME>Chief Operations Officer</ROLE_NAME>
     </CONTACT>
   </ROC>
 </results>
