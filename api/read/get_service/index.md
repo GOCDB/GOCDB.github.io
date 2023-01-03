@@ -42,7 +42,7 @@ This method does not support paging.
   <SERVICE_ENDPOINT PRIMARY_KEY="3303G0">
     <PRIMARY_KEY>3303G0</PRIMARY_KEY>
     <HOSTNAME>bdii.ipb.ac.rs</HOSTNAME>
-    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=Service&id=3303</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=Service&amp;id=3303</GOCDB_PORTAL_URL>
     <HOSTDN>/DC=org/DC=terena/DC=tcs/C=NL/L=Amsterdam/O=Stichting EGI/bdii.ipb.ac.rs</HOSTDN>
     <HOST_ARCH>x86_64</HOST_ARCH>
     <BETA>N</BETA>
