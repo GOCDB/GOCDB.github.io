@@ -42,7 +42,7 @@ This method optionally supports paging, to iterate over all results,
     <END_DATE>1688169600</END_DATE>
     <FORMATED_START_DATE>2022-06-27 00:00</FORMATED_START_DATE>
     <FORMATED_END_DATE>2023-07-01 00:00</FORMATED_END_DATE>
-    <GOCDB_PORTAL_URL>/index.php?Page_Type=Downtime&id=32578</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>/index.php?Page_Type=Downtime&amp;id=32578</GOCDB_PORTAL_URL>
     <SERVICES>
       <SERVICE>
         <PRIMARY_KEY>119G0</PRIMARY_KEY>

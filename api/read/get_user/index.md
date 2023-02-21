@@ -35,7 +35,7 @@ This method optionally supports paging, to iterate over all results,
     <SURNAME>Jai</SURNAME>
     <TITLE/>
     <DESCRIPTION/>
-    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=User&id=8</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=User&amp;id=8</GOCDB_PORTAL_URL>
     <EMAIL>Gwei.Jai@izolamrf.si</EMAIL>
     <TEL>+44 040 3636 3600</TEL>
     <WORKING_HOURS_START/>

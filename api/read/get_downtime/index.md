@@ -40,7 +40,7 @@ This method optionally supports paging, to iterate over all results,
     <SERVICE_TYPE>Site-BDII</SERVICE_TYPE>
     <ENDPOINT>bdii4.izolamrf.si</ENDPOINT>
     <HOSTED_BY>Izola MRF</HOSTED_BY>
-    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=Downtime&id=32578</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=Downtime&amp;id=32578</GOCDB_PORTAL_URL>
     <AFFECTED_ENDPOINTS/>
     <SEVERITY>WARNING</SEVERITY>
     <DESCRIPTION>The service will be at risk</DESCRIPTION>

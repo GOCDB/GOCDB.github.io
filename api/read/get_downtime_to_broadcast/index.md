@@ -34,7 +34,7 @@ This method optionally supports paging, to iterate over all results,
     <HOSTNAME>izolamrf.co.si</HOSTNAME>
     <SERVICE_TYPE>bdii4.izolamrf.si</SERVICE_TYPE>
     <HOSTED_BY>Izola MRF</HOSTED_BY>
-    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=Downtime&id=32893</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=Downtime&amp;id=32893</GOCDB_PORTAL_URL>
     <AFFECTED_ENDPOINTS/>
     <SEVERITY>WARNING</SEVERITY>
     <DESCRIPTION>The service will be at risk</DESCRIPTION>

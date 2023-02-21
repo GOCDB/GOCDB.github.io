@@ -29,7 +29,7 @@ This method optionally supports paging, to iterate over all results,
   <ROC ID="3" ROC_NAME="NGI_SI">
     <ROCNAME>NGI_SI</ROCNAME>
     <MAIL_CONTACT>ngi-si-contact@swing-grid.si</MAIL_CONTACT>
-    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=NGI&id=3</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=NGI&amp;id=3</GOCDB_PORTAL_URL>
     <CONTACT USER_ID="8G0" PRIMARY_KEY="8G0">
       <FORENAME>Gwei</FORENAME>
       <SURNAME>Jai</SURNAME>

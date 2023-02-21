@@ -42,7 +42,7 @@ This method does not support paging.
   <SERVICE_ENDPOINT PRIMARY_KEY="1G0">
     <PRIMARY_KEY>1G0</PRIMARY_KEY>
     <HOSTNAME>lodur.torchit.ch</HOSTNAME>
-    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=Service&id=1</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=Service&amp;id=1</GOCDB_PORTAL_URL>
     <HOSTDN>/DC=com/DC=quovadisglobal/DC=grid/DC=Torch/DC=hosts/C=CH/ST=Zuerich/L=Zuerich/O=SWITCH/CN=lodur.torchit.ch</HOSTDN>
     <HOST_OS>SL5</HOST_OS>
     <HOST_ARCH>64 bit</HOST_ARCH>

@@ -39,7 +39,7 @@ This method optionally supports paging, to iterate over all results,
     <SHORT_NAME>Izola MRF</SHORT_NAME>
     <OFFICIAL_NAME>Izola Marine Research Facility</OFFICIAL_NAME>
     <SITE_DESCRIPTION>Situated right on Slovenia's small coastline of the Adriatic Sea, the Izola Marine Research Facility is Slovenia's hub for all things ocean research.</SITE_DESCRIPTION>
-    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=Site&id=14</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=Site&amp;id=14</GOCDB_PORTAL_URL>
     <HOME_URL>http://www.izolamrf.co.si</HOME_URL>
     <CONTACT_EMAIL>contact@izolamrf.si</CONTACT_EMAIL>
     <CONTACT_TEL>+386 45 310 1393</CONTACT_TEL>

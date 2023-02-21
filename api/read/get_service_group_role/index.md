@@ -33,7 +33,7 @@ This method optionally supports paging, to iterate over all results,
     <DESCRIPTION>NGI_AEGIS Core Services</DESCRIPTION>
     <MONITORED>Y</MONITORED>
     <CONTACT_EMAIL>grid-admin@ipb.ac.rs</CONTACT_EMAIL>
-    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=Service_Group&id=23</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=Service_Group&amp;id=23</GOCDB_PORTAL_URL>
   </SERVICE_GROUP>
 </results>
 ```
