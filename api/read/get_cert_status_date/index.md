@@ -27,10 +27,9 @@ This method optionally supports paging, to iterate over all results,
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <site ID="367311">
-    <name>Izola MRF</name>
-    <cert_status>Closed</cert_status>
-    <cert_date>14-Jun-22 15.51.32 PM</cert_date>
+  <site ID="5">
+    <name>Torch</name>
+    <cert_status>Certified</cert_status>
   </site>
 </results>
 ```

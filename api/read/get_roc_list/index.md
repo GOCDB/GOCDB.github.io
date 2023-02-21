@@ -25,6 +25,8 @@ This method does not support paging.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <ROC PRIMARY_KEY="94735D8" ROC_NAME="NGI_SI"/>
+  <ROC PRIMARY_KEY="2G0" ROC_NAME="NGI_CH"/>
+  <ROC PRIMARY_KEY="3G0" ROC_NAME="NGI_SI"/>
+  <ROC PRIMARY_KEY="4G0" ROC_NAME="NGI_HU"/>
 </results>
 ```

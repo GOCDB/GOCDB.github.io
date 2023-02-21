@@ -32,7 +32,7 @@ This method does not support paging.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <SITE ID="367311" PRIMARY_KEY="119G0" NAME="Izola MRF">
+  <SITE ID="14G0" PRIMARY_KEY="119G0" NAME="Izola MRF">
     <PRIMARY_KEY>119G0</PRIMARY_KEY>
     <SHORT_NAME>Izola MRF</SHORT_NAME>
     <CSIRT_EMAIL>csirt@izolamrf.si</CSIRT_EMAIL>

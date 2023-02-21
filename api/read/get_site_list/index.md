@@ -33,6 +33,9 @@ This method does not support paging.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <SITE ID="367311" PRIMARY_KEY="119G0" NAME="Izola MRF" COUNTRY="Slovenia" COUNTRY_CODE="SI" ROC="NGI_SI" SUBGRID="" GIIS_URL="ldap://grid.izolamrf.si:0000/ds-vo-name=IzolaMRF,o=grid"/>
+  <SITE ID="11" PRIMARY_KEY="523G0" NAME="BERNUNI-GRID" COUNTRY="Switzerland" COUNTRY_CODE="CH" ROC="NGI_CH" SUBGRID="" GIIS_URL="ldap://bernuni-grid.ch:0000/ds-vo-name=BERNUNI-GRID,o=grid"/>
+  <SITE ID="12" PRIMARY_KEY="200G0" NAME="Basel Infrastructure" COUNTRY="Switzerland" COUNTRY_CODE="CH" ROC="NGI_CH" SUBGRID="" GIIS_URL=""/>
+  <SITE ID="13" PRIMARY_KEY="351G0" NAME="SSC" COUNTRY="Slovenia" COUNTRY_CODE="SI" ROC="NGI_SI" SUBGRID="" GIIS_URL="ldap://grid.ssc.si:0000/ds-vo-name=SSC,o=grid"/>
+  <SITE ID="14" PRIMARY_KEY="119G0" NAME="Izola MRF" COUNTRY="Slovenia" COUNTRY_CODE="SI" ROC="NGI_SI" SUBGRID="" GIIS_URL="ldap://grid.izolamrf.si:0000/ds-vo-name=IzolaMRF,o=grid"/>
 </results>
 ```

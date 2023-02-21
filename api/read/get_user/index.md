@@ -30,35 +30,48 @@ This method optionally supports paging, to iterate over all results,
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-    <EGEE_USER USER_ID="4322G0" PRIMARY_KEY="4523G0">
-        <FORENAME>Gwei</FORENAME>
-        <SURNAME>Jai</SURNAME>
-        <TITLE></TITLE>
-        <DESCRIPTION></DESCRIPTION>
-        <GOCDB_PORTAL_URL>https://testing.host.com/portal/index.php?Page_Type=View_Object&amp;object_id=6326&amp;grid_id=0</GOCDB_PORTAL_URL>
-        <EMAIL>Gwei.Jai@izolamrf.si</EMAIL>
-        <TEL>+44 040 3636 3600</TEL>
-        <WORKING_HOURS_START></WORKING_HOURS_START>
-        <WORKING_HOURS_END></WORKING_HOURS_END>
-        <CERTDN>/C=UK/O=eScience/OU=CLRC/L=RAL/CN=Gwei Jai</CERTDN>
-        <EGICHECKIN>alphanumeric@egi.eu</EGICHECKIN>
-        <IRISIAM/>
-        <SSOUSERNAME/>
-        <APPROVED/>
-        <ACTIVE/>
-        <HOMESITE><Izola MRF</HOMESITE>
-
-        <USER_ROLE>
-            <USER_ROLE>CIC Staff</USER_ROLE>
-            <ON_ENTITY>NGI_SI</ON_ENTITY>
-            <ENTITY_TYPE>group</ENTITY_TYPE>
-        </USER_ROLE>
-        <USER_ROLE>Site Operations Manager</USER_ROLE>
-            <USER_ROLE>Site Operations Manager</USER_ROLE>
-            <ON_ENTITY>NGI_SI</ON_ENTITY>
-            <ENTITY_TYPE>group</ENTITY_TYPE>
-        </USER_ROLE>
-    </EGEE_USER>
+  <EGEE_USER ID="8G0" PRIMARY_KEY="8G0">
+    <FORENAME>Gwei</FORENAME>
+    <SURNAME>Jai</SURNAME>
+    <TITLE/>
+    <DESCRIPTION/>
+    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=User&id=8</GOCDB_PORTAL_URL>
+    <EMAIL>Gwei.Jai@izolamrf.si</EMAIL>
+    <TEL>+44 040 3636 3600</TEL>
+    <WORKING_HOURS_START/>
+    <WORKING_HOURS_END/>
+    <CERTDN>/C=00/O=00000/OU=000000/CN=Gwei Jai</CERTDN>
+    <SSOUSERNAME/>
+    <APPROVED/>
+    <ACTIVE/>
+    <HOMESITE>Izola MRF</HOMESITE>
+    <USER_ROLE>
+      <USER_ROLE>Site Operations Deputy Manager</USER_ROLE>
+      <ON_ENTITY>Izola MRF</ON_ENTITY>
+      <ENTITY_TYPE>site</ENTITY_TYPE>
+      <PRIMARY_KEY>119G0</PRIMARY_KEY>
+      <RECOGNISED_IN_PROJECTS>
+        <PROJECT ID="1">EGI</PROJECT>
+      </RECOGNISED_IN_PROJECTS>
+    </USER_ROLE>
+    <USER_ROLE>
+      <USER_ROLE>Regional Staff (ROD)</USER_ROLE>
+      <ON_ENTITY>NGI_SI</ON_ENTITY>
+      <ENTITY_TYPE>ngi</ENTITY_TYPE>
+      <PRIMARY_KEY>3</PRIMARY_KEY>
+      <RECOGNISED_IN_PROJECTS>
+        <PROJECT ID="1">EGI</PROJECT>
+      </RECOGNISED_IN_PROJECTS>
+    </USER_ROLE>
+    <USER_ROLE>
+      <USER_ROLE>COD Staff</USER_ROLE>
+      <ON_ENTITY>EGI</ON_ENTITY>
+      <ENTITY_TYPE>project</ENTITY_TYPE>
+      <PRIMARY_KEY>1</PRIMARY_KEY>
+      <RECOGNISED_IN_PROJECTS>
+        <PROJECT ID="1">EGI</PROJECT>
+      </RECOGNISED_IN_PROJECTS>
+    </USER_ROLE>
+  </EGEE_USER>
 </results>
-
 ```

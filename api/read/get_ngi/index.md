@@ -28,10 +28,10 @@ This method optionally supports paging, to iterate over all results,
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <NGI PRIMARY_KEY="94735D8" NAME="NGI_SI">
-    <PRIMARY_KEY>94735D8</PRIMARY_KEY>
+  <NGI ID="3" NAME="NGI_SI">
+    <PRIMARY_KEY>3</PRIMARY_KEY>
     <NAME>NGI_SI</NAME>
-    <OBJECT_ID>11463</OBJECT_ID>
+    <OBJECT_ID>3</OBJECT_ID>
     <DESCRIPTION>An NGI based in Slovenia.</DESCRIPTION>
     <EMAIL>ngi-si-contact@swing-grid.si</EMAIL>
     <GGUS_SU/>
@@ -39,7 +39,9 @@ This method optionally supports paging, to iterate over all results,
     <HELPDESK_EMAIL>ngi-si-helpdesk@swing-grid.si</HELPDESK_EMAIL>
     <SECURITY_EMAIL>ngi-si-security@swing-grid.si</SECURITY_EMAIL>
     <SITE_COUNT>4</SITE_COUNT>
+    <SCOPES>
+      <SCOPE>EGI</SCOPE>
+    </SCOPES>
   </NGI>
 </results>
-
 ```

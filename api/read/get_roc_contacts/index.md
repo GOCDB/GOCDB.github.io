@@ -26,31 +26,27 @@ This method optionally supports paging, to iterate over all results,
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <ROC ID="11463" ROC_NAME="NGI_SI">
+  <ROC ID="3" ROC_NAME="NGI_SI">
     <ROCNAME>NGI_SI</ROCNAME>
     <MAIL_CONTACT>ngi-si-contact@swing-grid.si</MAIL_CONTACT>
-    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=NGI&amp;id=11463</GOCDB_PORTAL_URL>
-    <CONTACT USER_ID="4322" PRIMARY_KEY="4523G0">
+    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=NGI&id=3</GOCDB_PORTAL_URL>
+    <CONTACT USER_ID="8G0" PRIMARY_KEY="8G0">
       <FORENAME>Gwei</FORENAME>
       <SURNAME>Jai</SURNAME>
       <TITLE/>
       <EMAIL>Gwei.Jai@izolamrf.si</EMAIL>
       <TEL>+44 040 3636 3600</TEL>
-      <CERTDN>/C=UK/O=eScience/OU=CLRC/L=RAL/CN=Gwei Jai</CERTDN>
-      <EGICHECKIN>alphanumeric@egi.eu</EGICHECKIN>
-      <IRISIAM/>
-      <ROLE_NAME>Site Operations Manager</ROLE_NAME>
+      <CERTDN>/C=00/O=00000/OU=000000/CN=Gwei Jai</CERTDN>
+      <ROLE_NAME>Regional Staff (ROD)</ROLE_NAME>
     </CONTACT>
-    <CONTACT USER_ID="468344" PRIMARY_KEY="22434G0">
-      <FORENAME>Yuki</FORENAME>
-      <SURNAME>Tsunoda</SURNAME>
-      <TITLE></TITLE>
-      <EMAIL>Yuki.Tsunoda@izolamrf.si</EMAIL>
-      <TEL>+49 432 0030 8324</TEL>
-      <CERTDN/>
-      <EGICHECKIN/>
-      <IRISIAM/>
-      <ROLE_NAME>Chief Operations Officer</ROLE_NAME>
+    <CONTACT USER_ID="10G0" PRIMARY_KEY="10G0">
+      <FORENAME>Dante</FORENAME>
+      <SURNAME>Meloni</SURNAME>
+      <TITLE/>
+      <EMAIL>Dante.Meloni@ssc.si</EMAIL>
+      <TEL>+01 040 0331 3231</TEL>
+      <CERTDN>/C=00/O=00000/OU=000000/CN=Dante Meloni</CERTDN>
+      <ROLE_NAME>Regional Staff (ROD)</ROLE_NAME>
     </CONTACT>
   </ROC>
 </results>

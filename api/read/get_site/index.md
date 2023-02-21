@@ -34,34 +34,34 @@ This method optionally supports paging, to iterate over all results,
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <SITE ID="119" PRIMARY_KEY="119G0" NAME="Izola Marine Research Facility">
+  <SITE ID="14" PRIMARY_KEY="119G0" NAME="Izola MRF">
     <PRIMARY_KEY>119G0</PRIMARY_KEY>
-      <SHORT_NAME>Izola MRF</SHORT_NAME>
-      <OFFICIAL_NAME>Izola Marine Research Facility</OFFICIAL_NAME>
-      <SITE_DESCRIPTION>Situated right on Slovenia's small coastline of the Adriatic Sea, the Izola Marine Research Facility is Slovenia's hub for all things ocean research.</SITE_DESCRIPTION>
-      <GOCDB_PORTAL_URL>https://testing.host.com/portal/index.php?Page_Type=View_Object&amp;amp;object_id=119&amp;amp;grid_id=0</GOCDB_PORTAL_URL>
-      <HOME_URL>http://www.izolamrf.co.si</HOME_URL>
-      <CONTACT_EMAIL>contact@izolamrf.si</CONTACT_EMAIL>
-      <CONTACT_TEL>+386 45 310 1393</CONTACT_TEL>
-      <TIER>3</TIER>
-      <GIIS_URL>ldap://grid.izolamrf.si:0000/ds-vo-name=IzolaMRF,o=grid</GIIS_URL>
-      <COUNTRY_CODE>Slovenia</COUNTRY_CODE>
-      <COUNTRY>Slovenia</COUNTRY>
-      <ROC>NGI_SI</ROC>
-      <PRODUCTION_INFRASTRUCTURE>Test</PRODUCTION_INFRASTRUCTURE>
-      <CERTIFICATION_STATUS>Certified</CERTIFICATION_STATUS>
-      <TIMEZONE>Europe/Ljubljana</TIMEZONE>
-      <LATITUDE>45.541431</LATITUDE>
-      <LONGITUDE>13.662742</LONGITUDE>
-      <CSIRT_EMAIL>csirt@izolamrf.si</CSIRT_EMAIL>
-      <IP_RANGE>0.0.0.0/255.255.255.255</IP_RANGE>
-      <LOCATION>Izola, Slovenia</LOCATION>
-      <CSIRTTEL>+386 41 000 2994</CSIRTTEL>
-      <HELPDESKEMAIL>help@izolamrf.si</HELPDESKEMAIL>
+    <SHORT_NAME>Izola MRF</SHORT_NAME>
+    <OFFICIAL_NAME>Izola Marine Research Facility</OFFICIAL_NAME>
+    <SITE_DESCRIPTION>Situated right on Slovenia's small coastline of the Adriatic Sea, the Izola Marine Research Facility is Slovenia's hub for all things ocean research.</SITE_DESCRIPTION>
+    <GOCDB_PORTAL_URL>https://localhost/portal/index.php?Page_Type=Site&id=14</GOCDB_PORTAL_URL>
+    <HOME_URL>http://www.izolamrf.co.si</HOME_URL>
+    <CONTACT_EMAIL>contact@izolamrf.si</CONTACT_EMAIL>
+    <CONTACT_TEL>+386 45 310 1393</CONTACT_TEL>
+    <GIIS_URL>ldap://grid.izolamrf.si:0000/ds-vo-name=IzolaMRF,o=grid</GIIS_URL>
+    <COUNTRY_CODE>SI</COUNTRY_CODE>
+    <COUNTRY>Slovenia</COUNTRY>
+    <ROC>NGI_SI</ROC>
+    <PRODUCTION_INFRASTRUCTURE>Test</PRODUCTION_INFRASTRUCTURE>
+    <CERTIFICATION_STATUS>Certified</CERTIFICATION_STATUS>
+    <TIMEZONE>UTC</TIMEZONE>
+    <LATITUDE>45.541431</LATITUDE>
+    <LONGITUDE>13.662742</LONGITUDE>
+    <CSIRT_EMAIL>csirt@izolamrf.si</CSIRT_EMAIL>
+    <NOTIFICATIONS>FALSE</NOTIFICATIONS>
+    <DOMAIN>
+      <DOMAIN_NAME>izolamrf.si</DOMAIN_NAME>
+    </DOMAIN>
+    <SITE_IP>0.0.0.0/255.255.255.255</SITE_IP>
+    <SCOPES>
       <SCOPE>EGI</SCOPE>
-      <DOMAIN>
-        <DOMAIN_NAME>izolamrf.si</DOMAIN_NAME>
-      </DOMAIN>
+    </SCOPES>
+    <EXTENSIONS/>
   </SITE>
 </results>
 ```
