@@ -47,21 +47,21 @@ credential mechanism.
 | Method name | Description | Protection level |
 |-|-|-|
 [get_cert_status_changes](get_cert_status_changes/index.md) |Returns a list of changes to certification statuses | 2
-[get_cert_status_date](get_cert_status_date/index.md) | Returns a list of current certification statuses for Production sites and the date they entered that status | 2
+[get_cert_status_date](get_cert_status_date/index.md) | Returns a list of current certification statuses for Production sites and the date they entered that status | 3
 [get_downtime](get_downtime/index.md) | Returns a list of service downtimes (downtimes are repeated for each affected service) | 1
 [get_downtime_nested_services](get_downtime_nested_services/index.md) | Returns a list of downtimes with affected services nested as child elements of the downtime | 1
 [get_downtime_to_broadcast](get_downtime_to_broadcast/index.md) | Returns the list of downtimes recently declared with notification settings for downtime notification services | 1
-[get_ngi](get_ngi/index.md) | Returns a list of NGIs with contact information | 2
-[get_project_contacts](get_project_contacts/index.md) | Returns a list of persons (and associated info) having a role over a project. | 2
-[get_roc_contacts](get_roc_contacts/index.md) | Returns NGI contact details, including NGI contact mail address and list of NGI staff | 2
+[get_ngi](get_ngi/index.md) | Returns a list of NGIs with contact information | 3
+[get_project_contacts](get_project_contacts/index.md) | Returns a list of persons (and associated info) having a role over a project. | 3
+[get_roc_contacts](get_roc_contacts/index.md) | Returns NGI contact details, including NGI contact mail address and list of NGI staff | 3
 [get_roc_list](get_roc_list/index.md) | Returns a list of NGIs with minimal associated information | 1
 [get_service](get_service/index.md) | Returns a list of services (single node x single service) and associated information (same as get_service_endpoint) | 1
-[get_service_group](get_service_group/index.md) | Returns a list of service groups and the service endpoints under those groups. | 2
-[get_service_group_role](get_service_group_role/index.md) | Returns a list of service groups and the roles held by users over these groups. | 2
+[get_service_group](get_service_group/index.md) | Returns a list of service groups and the service endpoints under those groups. | 3
+[get_service_group_role](get_service_group_role/index.md) | Returns a list of service groups and the roles held by users over these groups. | 3
 [get_service_types](get_service_types/index.md) | Returns a list of valid service types and associated description | 1
-[get_site](get_site/index.md) | Returns site information, grouped by site | 2
-[get_site_contacts](get_site_contacts/index.md) | Returns a list of persons (and associated info) having a role at site level, grouped per site | 2
+[get_site](get_site/index.md) | Returns site information, grouped by site | 3
+[get_site_contacts](get_site_contacts/index.md) | Returns a list of persons (and associated info) having a role at site level, grouped per site | 3
 [get_site_count_per_country](get_site_count_per_country/index.md) | Returns a count of sites per country (not per NGI) | 1
 [get_site_list](get_site_list/index.md) | Returns a list of sites with minimal associated information | 1
-[get_site_security_info](get_site_security_info/index.md) | Returns security contact information for sites | 2
-[get_user](get_user/index.md) | Returns a user or a list of users with associated details and roles | 2
+[get_site_security_info](get_site_security_info/index.md) | Returns security contact information for sites | 3
+[get_user](get_user/index.md) | Returns a user or a list of users with associated details and roles | 3
