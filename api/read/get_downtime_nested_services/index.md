@@ -42,22 +42,22 @@ This method optionally supports paging, to iterate over all results,
     <END_DATE>1688169600</END_DATE>
     <FORMATED_START_DATE>2022-06-27 00:00</FORMATED_START_DATE>
     <FORMATED_END_DATE>2023-07-01 00:00</FORMATED_END_DATE>
-    <GOCDB_PORTAL_URL>/index.php?Page_Type=Downtime&id=32578</GOCDB_PORTAL_URL>
+    <GOCDB_PORTAL_URL>/index.php?Page_Type=Downtime&amp;id=32578</GOCDB_PORTAL_URL>
     <SERVICES>
       <SERVICE>
-        <PRIMARY_KEY>3180G0</PRIMARY_KEY>
-        <HOSTNAME>host.example.com</HOSTNAME>
-        <SERVICE_TYPE>egi.GOCDB</SERVICE_TYPE>
-        <ENDPOINT>gocdb.host.example.com</ENDPOINT>
-        <HOSTED_BY>GRIDOPS-GOCDB</HOSTED_BY>
+        <PRIMARY_KEY>119G0</PRIMARY_KEY>
+        <HOSTNAME>bdii.ipb.ac.rs</HOSTNAME>
+        <SERVICE_TYPE>Top-BDII</SERVICE_TYPE>
+        <ENDPOINT>gocdb.bdii.ipb.ac.rs</ENDPOINT>
+        <HOSTED_BY>Izola MRF</HOSTED_BY>
         <AFFECTED_ENDPOINTS/>
       </SERVICE>
       <SERVICE>
-        <PRIMARY_KEY>3190G0</PRIMARY_KEY>
-        <HOSTNAME>host2.example.com</HOSTNAME>
-        <SERVICE_TYPE>egi.GOCDB</SERVICE_TYPE>
-        <ENDPOINT>gocdb2.host.example.com</ENDPOINT>
-        <HOSTED_BY>GRIDOPS-GOCDB</HOSTED_BY>
+        <PRIMARY_KEY>119G0</PRIMARY_KEY>
+        <HOSTNAME>voms.ipb.ac.rs</HOSTNAME>
+        <SERVICE_TYPE>VOMS</SERVICE_TYPE>
+        <ENDPOINT>gocdb.voms.ipb.ac.rs</ENDPOINT>
+        <HOSTED_BY>Izola MRF</HOSTED_BY>
         <AFFECTED_ENDPOINTS/>
       </SERVICE>
     </SERVICES>

@@ -34,13 +34,13 @@ This method optionally supports paging, to iterate over all results,
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <DOWNTIME ID="32578" PRIMARY_KEY="113653G0" CLASSIFICATION="SCHEDULED">
-    <PRIMARY_KEY>113653G0</PRIMARY_KEY>
-    <HOSTNAME>host.example.com</HOSTNAME>
-    <SERVICE_TYPE>egi.GOCDB</SERVICE_TYPE>
-    <ENDPOINT>endpoint.example.stfc.ac.uk</ENDPOINT>
-    <HOSTED_BY>GRIDOPS-GOCDB</HOSTED_BY>
-    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=Downtime&id=32578</GOCDB_PORTAL_URL>
+  <DOWNTIME ID="32578" PRIMARY_KEY="119G0" CLASSIFICATION="SCHEDULED">
+    <PRIMARY_KEY>119G0</PRIMARY_KEY>
+    <HOSTNAME>izolamrf.co.si</HOSTNAME>
+    <SERVICE_TYPE>Site-BDII</SERVICE_TYPE>
+    <ENDPOINT>bdii4.izolamrf.si</ENDPOINT>
+    <HOSTED_BY>Izola MRF</HOSTED_BY>
+    <GOCDB_PORTAL_URL>/portal/index.php?Page_Type=Downtime&amp;id=32578</GOCDB_PORTAL_URL>
     <AFFECTED_ENDPOINTS/>
     <SEVERITY>WARNING</SEVERITY>
     <DESCRIPTION>The service will be at risk</DESCRIPTION>

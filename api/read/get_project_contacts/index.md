@@ -27,18 +27,27 @@ This method optionally supports paging, to iterate over all results,
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
   <Project ID="1" NAME="EGI">
-    <CONTACT USER_ID="202G0" PRIMARY_KEY="202G0">
-      <FORENAME>Example</FORENAME>
-      <SURNAME>User</SURNAME>
-      <TITLE>Mr</TITLE>
-      <EMAIL>example.user@stfc.ac.uk</EMAIL>
-      <TEL>+00 (0) 0000 000000</TEL>
+    <CONTACT USER_ID="8G0" PRIMARY_KEY="8G0">
+      <FORENAME>Gwei</FORENAME>
+      <SURNAME>Jai</SURNAME>
+      <TITLE/>
+      <EMAIL>Gwei.Jai@izolamrf.si</EMAIL>
+      <TEL>+44 040 3636 3600</TEL>
       <WORKING_HOURS_START/>
       <WORKING_HOURS_END/>
-      <CERTDN>/C=UK/O=eScience/OU=CLRC/L=RAL/CN=example user</CERTDN>
-      <EGICHECKIN/>
-      <IRISIAM/>
-      <ROLE_NAME>EGI CSIRT Officer</ROLE_NAME>
+      <CERTDN>/C=00/O=00000/OU=000000/CN=Gwei Jai</CERTDN>
+      <ROLE_NAME>COD Staff</ROLE_NAME>
+    </CONTACT>
+    <CONTACT USER_ID="9G0" PRIMARY_KEY="9G0">
+      <FORENAME>G</FORENAME>
+      <SURNAME>Wiz</SURNAME>
+      <TITLE/>
+      <EMAIL>G.Wiz@brunnengs.ch</EMAIL>
+      <TEL>+44 220 4244 4335</TEL>
+      <WORKING_HOURS_START/>
+      <WORKING_HOURS_END/>
+      <CERTDN>/C=00/O=00000/OU=000000/CN=G Wiz</CERTDN>
+      <ROLE_NAME>COD Staff</ROLE_NAME>
     </CONTACT>
   </Project>
 </results>

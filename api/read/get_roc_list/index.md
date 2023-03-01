@@ -14,7 +14,7 @@
 
 | Parameters | Effect | Format/Value(s) | Default | Example |
 | - | - | - | - | - |
-| `roc` | Limit results to given NGI | any NGI name | `all` | `?method=get_roc_list&roc=NGI_DE` |
+| `roc` | Limit results to given NGI | any NGI name | `all` | `?method=get_roc_list&roc=NGI_SI` |
 
 ### Paging
 
@@ -25,6 +25,8 @@ This method does not support paging.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <ROC PRIMARY_KEY="4G0" ROC_NAME="EGI.eu"/>
+  <ROC PRIMARY_KEY="2G0" ROC_NAME="NGI_CH"/>
+  <ROC PRIMARY_KEY="3G0" ROC_NAME="NGI_SI"/>
+  <ROC PRIMARY_KEY="4G0" ROC_NAME="NGI_HU"/>
 </results>
 ```

@@ -23,9 +23,9 @@ This method does not support paging.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <results>
-  <SERVICE_TYPE TYPE_ID="44G0" PRIMARY_KEY="44G0">
-    <SERVICE_TYPE_NAME>egi.GOCDB</SERVICE_TYPE_NAME>
-    <SERVICE_TYPE_DESC>[Central Service] The central GOCDB</SERVICE_TYPE_DESC>
+  <SERVICE_TYPE TYPE_ID="1G0" PRIMARY_KEY="1G0">
+    <SERVICE_TYPE_NAME>CE</SERVICE_TYPE_NAME>
+    <SERVICE_TYPE_DESC>[Site service] The LCG Compute Element. Currently the standard CE within the gLite middleware stack. Soon to be replaced by the CREAM CE. </SERVICE_TYPE_DESC>
   </SERVICE_TYPE>
 </results>
 ```
