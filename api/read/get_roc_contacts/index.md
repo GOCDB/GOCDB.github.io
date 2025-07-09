@@ -8,7 +8,7 @@
 
 | Description | Protection Level |
 | - | - |
-| Returns NGI contact details, including NGI contact mail address and list of NGI staff  | Protected (level 2) |
+| Returns NGI contact details, including NGI contact mail address and list of NGI staff  | Private (level 3) |
 
 ### Information
 

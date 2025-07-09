@@ -8,7 +8,7 @@
 
 | Description | Protection Level |
 | - | - |
-| Returns a user or a list of users with associated details and roles. Note that roles apply to a particular project – this is shown in the XML which qualifies which user-roles apply to which project using the RECOGNISED_IN_PROJECTS element. | Protected (level 2) |
+| Returns a user or a list of users with associated details and roles. Note that roles apply to a particular project – this is shown in the XML which qualifies which user-roles apply to which project using the RECOGNISED_IN_PROJECTS element. | Private (level 3) |
 
 ### Information
 

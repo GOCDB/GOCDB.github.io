@@ -10,7 +10,7 @@
 
 | Description | Protection Level |
 | - | - |
-| Returns site information including contacts, grouped by site | Protected (level 2) |
+| Returns site information including contacts, grouped by site | Private (level 3) |
 
 | Parameters | Effect | Format/Value(s) | Default | Example |
 | - | - | - | - | - |

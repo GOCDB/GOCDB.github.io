@@ -8,7 +8,7 @@
 
 | Description | Protection Level |
 | - | - |
-| Returns a list of persons (and associated info) having a role over a project.  | Protected (level 2) |
+| Returns a list of persons (and associated info) having a role over a project.  | Private (level 3) |
 
 ### Information
 

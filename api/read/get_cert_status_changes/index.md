@@ -8,7 +8,7 @@
 
 | Description | Protection Level |
 | - | - |
-| Returns a list of changes/transitions to certification statuses. Note, if the requested Site certification status has never been updated from its initial state, then no changes will have occurred and the results will be empty.  | Protected (level 2) |
+| Returns a list of changes/transitions to certification statuses. Note, if the requested Site certification status has never been updated from its initial state, then no changes will have occurred and the results will be empty.  | Private (level 3) |
 
 ### Information
 
