@@ -8,7 +8,7 @@
 
 | Description | Protection Level |
 | - | - |
-| Returns a list of service groups and the service endpoints under those groups.  | Protected (level 2) |
+| Returns a list of service groups and the service endpoints under those groups.  | Private (level 3) |
 
 ### Information
 

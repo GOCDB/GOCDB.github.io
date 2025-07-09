@@ -8,7 +8,7 @@
 
 | Description | Protection Level |
 | - | - |
-| Returns security/CSIRT contact information for sites | Protected (level 2) |
+| Returns security/CSIRT contact information for sites | Private (level 3) |
 
 ### Information
 

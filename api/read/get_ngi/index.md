@@ -8,7 +8,7 @@
 
 | Description | Protection Level |
 | - | - |
-| Returns a list of NGIs with contact information | Protected (level 2) |
+| Returns a list of NGIs with contact information | Private (level 3) |
 
 ### Information
 

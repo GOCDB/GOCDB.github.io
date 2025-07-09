@@ -8,7 +8,7 @@
 
 | Description | Protection Level |
 | - | - |
-| Returns the list of downtimes recently declared with notification settings | Protected (level 2) |
+| Returns the list of downtimes recently declared with notification settings | Public (level 1) |
 
 ### Information
 
