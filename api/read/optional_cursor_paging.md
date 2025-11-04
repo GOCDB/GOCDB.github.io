@@ -1,5 +1,7 @@
 # GOCDB Programmatic Interface - Optional Cursor Paging
 
+## Overview
+
 Cursor paging allows clients to iterate through massive result-sets which are
 split into one or more smaller pages. This allows result-sets to be processed
 that would otherwise be too large or memory-expensive to process in a single
@@ -40,3 +42,23 @@ The `count` element shows how many results are on the current page (note, if
 this figure is less than `max_page_size` then you have come to the end of
 the results, and at that moment in time, the next page will show no results
 with a count of zero).
+
+## Summary
+
+### Paging parameters explained
+
+| parameter | definition |
+| - | - |
+| `next_cursor` | A cursor that points to the start of the next page of results. |
+| `prev_cursor` | A cursor that points to the start of the previous page of results. |
+
+### `meta` tags explained
+
+| tag | definition |
+| - | - |
+| `self` | The link to the current page of results. |
+| `next` | The link to the start of the next page of results. |
+| `previous` | The link to the start of the previous page of results. |
+| `start` | The link to the start of the first page of results. |
+| `count` | Shows how many results are on the current page (note, if this figure is less than `max_page_size` then you have come to the end of the results, and at that moment in time, the next page will show no results with a count of zero). |
+| `max_page_size` | The maximum number of results shown on a page. |
