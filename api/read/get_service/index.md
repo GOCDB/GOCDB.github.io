@@ -27,12 +27,8 @@
 
 ### Paging
 
-This method optionally supports paging, to iterate over all results,
-[see here for info](https://wiki.egi.eu/wiki/GOCDB/notifications#Optional_Cursor_Paging_on_Read_API).
-
-or
-
-This method does not support paging.
+This method optionally supports paging to iterate over all results,
+[see here for info](../optional_cursor_paging.md).
 
 ### Example Output
 
