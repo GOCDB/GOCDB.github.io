@@ -36,7 +36,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Check for broken links
-      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      uses: umbrelladocs/action-linkspector@v1
 
   spellcheck:
     name: Spellcheck
